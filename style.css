@@ -9,7 +9,7 @@
     transform: scale(1.04);
 }
 
-
+/* Videos Page */
 
 .tw-container {
     margin: 2rem 0;
@@ -70,5 +70,114 @@
 
 .video-container .video .active:hover {
     transition: none;
-    transform: translate(-50%, -50%) scale(1); */
+    transform: translate(-50%, -50%) scale(1); 
+}*/
+
+/* Videos Page End */
+
+
+/* Socials Page */
+.socials-main-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
+
+.socials-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #3f474f;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+
+.socials-icon:hover {
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.socials-icon:hover i {
+    color: white;
+}
+
+.socials-icon .fa-youtube {
+    color: #ff0000;
+}
+
+.youtube-icon:hover {
+    background: #ff0000;
+}
+
+.socials-icon .fa-twitter {
+    color: #1da1f2;
+}
+
+.twitter-icon:hover {
+    background: #1da1f2;
+}
+
+.socials-icon:hover i {
+    background-image: linear-gradient(45deg, white, white);
+    background-image: conic-gradient(45deg, white, white);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.socials-icon .fa-instagram {
+    background-image: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-image: conic-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.instagram-icon:hover {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.socials-icon .fa-linkedin {
+    color: #0077b5;
+}
+
+.linkedin-icon:hover {
+    background: #0077b5;
+}
+
+.socials-icon .fa-github {
+    color: #000;
+}
+
+.github-icon:hover {
+    background: #000;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .socials-main-div {
+        flex-direction: column;
+    }
+}
+
+.socials-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Social Page End */
