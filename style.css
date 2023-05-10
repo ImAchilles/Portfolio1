@@ -40,6 +40,15 @@
     cursor: pointer;
 }
 
+.social-link {
+    color: #5e6a75;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #ff9001;
+}
+
 
 
 
