@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .jester-hover:hover {
     transition: .2s ease-in-out;
     transform: scale(1.04);
@@ -181,3 +185,14 @@
 
 
 /* Social Page End */
+
+/* attempt to make it responsive, without this it has an annoying side scroll on the video and thumbnail pages only*/
+
+@media only screen and (min-width:1877px) {
+    .videos-body, .thumbnail-body {
+        margin-top: -10px;
+        overflow-y: hidden;
+    }
+}
+
+/* end of responsive thing */
